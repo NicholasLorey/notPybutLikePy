@@ -1,0 +1,17 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "notPybutLikePy.exe",
+      "name": "notPybutLikePy.exe",
+      "args": [
+        "1",
+        "INPUT6_Big.nplp",
+        "f"
+      ]
+    }
+  ]
+}

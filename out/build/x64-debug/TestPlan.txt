@@ -1,0 +1,24 @@
+-------HOW TO RUN EACH NPLP FILE -------
+
+1. After download the notPybutLikePy folder, go to out > build > x64-debug
+2. type CMD on the path of this folder that you can see it on the top of file explorer and Enter.
+3. Run the file that have a nplp extension. <PROGRAM><OPTION><INPUT_FILE><MODE> 
+	- Copy this to run the first file on the terminal
+	- Example: notPybutLikePy.exe 1 INPUT1_Hello.nplp <mode>
+
+*There is 3 mode: - f
+		  - a
+		   -m
+
+------LIST OF COMMAND LINE TO RUN THE FILE:---------
+notPybutLikePy.exe 1 INPUT0_Empty.nplp f
+notPybutLikePy.exe 1 INPUT1_Hello.nplp f
+notPybutLikePy.exe 1 INPUT2_Volume.nplp f
+notPybutLikePy.exe 1 INPUT3_Factorial.nplp a
+notPybutLikePy.exe 1 INPUT4_Datatypes.nplp a
+notPybutLikePy.exe 1 INPUT5_General.nplp a
+notPybutLikePy.exe 1 INPUT6_Big.nplp m
+
+notPybutLikePy.exe 1 INPUT6_Big.nplp m > INPUT6_Big-A12-f-100-10.out 2> INPUT6_Big-A12-f-100-10.err
+notPybutLikePy.exe 1 INPUT5_General.nplp a > INPUT5_General-A12.out 2> INPUT5_General-A12.err
+

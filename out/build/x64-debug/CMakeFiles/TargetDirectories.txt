@@ -1,0 +1,3 @@
+D:/VSC/Compiler/notPybutLikePy/out/build/x64-debug/CMakeFiles/notPybutLikePy.dir
+D:/VSC/Compiler/notPybutLikePy/out/build/x64-debug/CMakeFiles/edit_cache.dir
+D:/VSC/Compiler/notPybutLikePy/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
