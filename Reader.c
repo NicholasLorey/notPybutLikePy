@@ -727,9 +727,16 @@ nplp_intg readerGetNumErrors(BufferPointer const readerPointer) {
 
 nplp_void readerCalcChecksum(BufferPointer readerPointer) {
 	/* TO_DO: Defensive programming */
+	if (!readerPointer)
+		return FALSE;
 	/* TO_DO: Calculate checksum */
-
+	nplp_byte sum = 0;
 	//we didn't do this function because there's no specification for this function
+	for (int i = 0; i < readerPointer->positions.wrte; i++) {
+		sum += readerPointer->content[i];
+	}
+
+	readerPointer->checksum = sum;
 }
 
 /*
@@ -754,9 +761,11 @@ nplp_boln readerPrintFlags(BufferPointer readerPointer) {
 		return FALSE; 
 	}
 
-	printf("%d%d\n",
+	printf("%d%d%d%d\n",
 		readerPointer->flags.isEmpty,
-		readerPointer->flags.isFull);
+		readerPointer->flags.isFull,
+		readerPointer->flags.isMoved,
+		readerPointer->flags.isRead);
 
 
 	return TRUE;

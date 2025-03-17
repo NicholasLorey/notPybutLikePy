@@ -103,7 +103,7 @@ Main functions signatures
 nplp_intg mainReader(nplp_intg argc, nplp_string* argv);
 /* TO_DO: Remove comment in next assignments */
 
-//nplp_intg mainScanner(nplp_intg argc, nplp_string* argv);
+nplp_intg mainScanner(nplp_intg argc, nplp_string* argv);
 //nplp_intg mainParser(nplp_intg argc, nplp_string* argv);
 
 

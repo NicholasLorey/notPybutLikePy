@@ -8,9 +8,8 @@
       "projectTarget": "notPybutLikePy.exe",
       "name": "notPybutLikePy.exe",
       "args": [
-        "1",
-        "INPUT6_Big.nplp",
-        "f"
+        "2",
+        "INPUT1_Hello.nplp"
       ]
     }
   ]

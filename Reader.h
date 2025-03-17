@@ -63,6 +63,7 @@ enum READER_MODE {
 	MODE_MULTI = 'm'  /* Multiplicative mode (constant increment to be multiplied) */
 };
 
+
 /* Constants about controls (not need to change) */
 #define READER_TERMINATOR	'\0'							/* General EOF */
 

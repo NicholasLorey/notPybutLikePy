@@ -1,10 +1,19 @@
-# Sofia Example 1:
-  The program is "lexically" correct
-  and should not generate any error #
-main&() {
-	data {
+~ function(){ 
+	if{
+	test #<-thisisvariable
 	}
-	code {
-		print&('Hello world!');
-	}
+
+	'''
+		multi line comment
+	'''
+
+	# single line comment
+
+	~ print("String literal")
+
+	1234
+
+	
 }
+
+'''YES IT WORKS'''

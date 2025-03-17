@@ -70,6 +70,20 @@ build CMakeFiles\notPybutLikePy.dir\MainReader.c.obj: C_COMPILER__notPybutLikePy
   TARGET_COMPILE_PDB = CMakeFiles\notPybutLikePy.dir\
   TARGET_PDB = notPybutLikePy.pdb
 
+build CMakeFiles\notPybutLikePy.dir\Scanner.c.obj: C_COMPILER__notPybutLikePy_unscanned_Debug D$:\VSC\Compiler\notPybutLikePy\Scanner.c || cmake_object_order_depends_target_notPybutLikePy
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Ob0 /Od /RTC1 -ZI
+  OBJECT_DIR = CMakeFiles\notPybutLikePy.dir
+  OBJECT_FILE_DIR = CMakeFiles\notPybutLikePy.dir
+  TARGET_COMPILE_PDB = CMakeFiles\notPybutLikePy.dir\
+  TARGET_PDB = notPybutLikePy.pdb
+
+build CMakeFiles\notPybutLikePy.dir\MainScanner.c.obj: C_COMPILER__notPybutLikePy_unscanned_Debug D$:\VSC\Compiler\notPybutLikePy\MainScanner.c || cmake_object_order_depends_target_notPybutLikePy
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Ob0 /Od /RTC1 -ZI
+  OBJECT_DIR = CMakeFiles\notPybutLikePy.dir
+  OBJECT_FILE_DIR = CMakeFiles\notPybutLikePy.dir
+  TARGET_COMPILE_PDB = CMakeFiles\notPybutLikePy.dir\
+  TARGET_PDB = notPybutLikePy.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target notPybutLikePy
@@ -78,7 +92,7 @@ build CMakeFiles\notPybutLikePy.dir\MainReader.c.obj: C_COMPILER__notPybutLikePy
 #############################################
 # Link the executable notPybutLikePy.exe
 
-build notPybutLikePy.exe: C_EXECUTABLE_LINKER__notPybutLikePy_Debug CMakeFiles\notPybutLikePy.dir\Compilers.c.obj CMakeFiles\notPybutLikePy.dir\Reader.c.obj CMakeFiles\notPybutLikePy.dir\MainReader.c.obj
+build notPybutLikePy.exe: C_EXECUTABLE_LINKER__notPybutLikePy_Debug CMakeFiles\notPybutLikePy.dir\Compilers.c.obj CMakeFiles\notPybutLikePy.dir\Reader.c.obj CMakeFiles\notPybutLikePy.dir\MainReader.c.obj CMakeFiles\notPybutLikePy.dir\Scanner.c.obj CMakeFiles\notPybutLikePy.dir\MainScanner.c.obj
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Ob0 /Od /RTC1 -ZI
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
